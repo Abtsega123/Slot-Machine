@@ -155,7 +155,7 @@ const reels = spin();
 const rows= transpose(reels);
 printRows(rows);
 const winnings= getWinnings(rows, bet, numberOfLines);
-console.log("You Won it, $" + winnings.toString());
+console.log("CONGRATS! You Won it, $" + winnings.toString());
 
 
 
